@@ -1,0 +1,47 @@
+/* Forms */
+
+.form-control,
+input {
+    border: 2px solid rgba(153, 178, 217, 0.44);
+    border-radius: 6px;
+    color: var(--color-secondary);
+    padding: .6rem 0.75rem;
+    height: fit-content;
+    transition: border 0.33s ease-in-out;
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: var(--color-primary);
+        color: var(--color-secondary);
+    }
+
+
+    // placeholder
+    &::-webkit-input-placeholder {
+        /* Edge */
+        color: var(--color-tertiary);
+    }
+    
+    &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: var(--color-tertiary);
+    }
+    
+    &::placeholder {
+        color: var(--color-tertiary);
+    }
+
+    // disabled
+    &:disabled,
+    &[readonly] {
+        background: rgba(153, 178, 217, 0.09);
+    }
+}
+
+.form-control-label,
+label {
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
+}
+

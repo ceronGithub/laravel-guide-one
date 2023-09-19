@@ -1,0 +1,20 @@
+/* Header */
+.right-panel {
+    header.header {
+        background-color: var(--color-neutral-01);
+        border-bottom: none;
+        padding: 0.25rem 2rem;
+        height: 63px;
+        z-index: 10;
+    }
+
+    // Menu Toggle - Burger 
+    .menutoggle {
+        margin-top: -50px;
+        margin-left: 20px;
+        z-index: 99;
+        position: fixed;
+    }
+}
+
+

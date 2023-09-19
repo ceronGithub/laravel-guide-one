@@ -1,0 +1,16 @@
+/* User dropdown */
+.user-area .user-menu {
+    border-radius: 10px;
+    box-shadow: 0px 17px 40px -1px rgba(0, 37, 167, 0.1);
+    padding: 0.5rem 1rem;
+    min-width: 165px;
+
+    .nav-link {
+        color: var(--color-tertiary);
+
+        &:hover,
+        &:active {
+            color: var(--color-primary);
+        }
+    }
+}

@@ -1,0 +1,127 @@
+.btn {
+    padding: 14px 18px;
+    border-radius: 15px;
+    font-family: var(--font-secondary);
+
+    .fe {
+        font-weight: 900;
+    }
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border: none;
+
+    &:visited {
+        background-color: var(--color-primary);
+    }
+
+    &:hover,
+    &:visited:hover {
+        background-color: var(--color-primary-hover);
+    }
+
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):active {
+        background-color: var(--color-primary-hover);
+    }
+}
+
+.btn-light,
+.btn-light:visited,
+.btn-light:hover,
+.btn-light:active {
+    color: var(--color-neutral-02);
+}
+
+// semantic 
+.btn-danger {
+    background-color: var(--color-danger);
+    border: none;
+
+    &:visited {
+        background-color: var(--color-danger);
+    }
+
+    &:hover,
+    &:visited:hover {
+        background-color: var(--color-danger-hover);
+    }
+
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):active {
+        background-color: var(--color-danger-active);
+    }
+}
+
+// round buttons
+.btn-round {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    box-shadow: 0px 20px 32px rgba(41, 72, 152, 0.06);
+    transition: all 0.2s ease-out;
+
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-round.btn-sm {
+    width: 32px;
+    height: 32px;
+
+    padding: unset;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
+}
+
+// light colors for button
+.btn-light-blue,
+.btn-light-blue:visited {
+    background-color: rgba(#4B90F6, 0.08);
+    color: #4B90F6;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: #4B90F6;
+        color: var(--color-base-white);
+    }
+}
+
+.btn-light-orange,
+.btn-light-orange:visited {
+    background-color: rgba(#F6944B, 0.08);
+    color: #F6944B;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: #F6944B;
+        color: var(--color-base-white);
+    }
+}
+
+.btn-light-red,
+.btn-light-red:visited {
+    background-color: rgba(#EE1C1C, 0.08);
+    color: #EE1C1C;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: #EE1C1C;
+        color: var(--color-base-white);
+    }
+}

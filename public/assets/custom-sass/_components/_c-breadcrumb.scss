@@ -1,0 +1,25 @@
+.right-panel .page-header .breadcrumb {
+    background-color: transparent;
+
+    .breadcrumb-item a {
+        color: var(--color-secondary);
+
+        &:hover {
+            color: var(--color-secondary-hover);
+        }
+    }
+
+    .breadcrumb-item.active {
+        color: var(--color-primary);
+        font-family: var(--font-primary);
+    }
+
+    // arrow icon
+    > li + li:before {
+        font-family: 'feather' !important;
+        font-style: normal;
+        font-weight: normal;
+        content: "\e92f";
+        color: var(--color-secondary);
+    }
+}

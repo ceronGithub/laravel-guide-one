@@ -1,0 +1,85 @@
+/* Custom Image Upload */
+.file-upload-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.file-upload-group {
+    width: fit-content;
+}
+
+.file-upload__card {
+    position: relative;
+    width: 214px;
+    height: 220px;
+
+    margin-top: .5rem;
+
+    background: #F5F4FF;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.33s;
+
+    &:hover,
+    &:focus {
+        border-color: var(--color-primary);
+    }
+}
+
+.file-upload__preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.file-upload__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.file-upload__delete {
+    display: flex;
+    justify-content: end;
+
+    .btn {
+        background-color: var(--color-base-white);
+        color: var(--color-danger);
+
+        &:hover {
+            background-color: var(--color-danger);
+            color: var(--color-base-white);
+        }
+    }
+}
+
+.file-upload__name {
+    font-family: var(--font-secondary);
+    color: var(--color-tertiary);
+}
+
+/* with image preview */
+.file-upload-group.withPreview {
+    .file-upload__overlay {
+        background: linear-gradient(180deg, rgba(4, 12, 33, 0.05) 5.94%, rgba(4, 12, 33, 0.84) 84.93%);
+    }
+
+    .file-upload__name {
+        color: var(--color-base-white);
+    }
+}

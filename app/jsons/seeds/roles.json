@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Super Admin",
+      "desc": "Lorem Ipsum Dolor"
+    },
+    {
+      "name": "Admin",
+      "desc": "Lorem Ipsum Dolor"
+    },
+    {
+      "name": "RM",
+      "desc": "Lorem Ipsum Dolor"
+    },
+    {
+      "name": "ARM",
+      "desc": "Lorem Ipsum Dolor"
+    },
+    {
+      "name": "Store Custodian",
+      "desc": "Lorem Ipsum Dolor"
+    }
+  ]

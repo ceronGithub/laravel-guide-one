@@ -1,0 +1,40 @@
+/* Modals */
+.modal-backdrop {
+    background-color: #33464D;
+}
+
+.modal-backdrop.show {
+    opacity: .35;
+}
+
+.modal-content {
+    border-radius: 14px;
+    border: none;
+}
+
+.modal-header {
+    position: relative;
+    padding: 1.5rem 2rem 1rem;
+    border: none;
+
+    .modal-title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 1rem;
+        display: inline-block;
+    }
+}
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+.modal-footer {
+    border: none;
+}

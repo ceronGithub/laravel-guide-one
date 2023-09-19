@@ -1,0 +1,110 @@
+// main: ../style.scss
+
+//**
+// Project Settings
+//**
+
+// see font.google.com and paste the css code here
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+:root {
+    // Font Primary
+    --font-primary: "Poppins-Bold", Arial, sans-serif;
+
+    // Font Primary
+    --font-secondary: "Poppins-Medium", Arial, sans-serif;
+
+    // set base values
+    // --text-base-size: 1rem;
+    // --text-unit: var(--text-base-size);
+    // --text-scale-ratio: 1.40;
+
+    // @include mq($from: tablet-portrait) {
+    //     --text-base-size: 0.9rem;
+    //     --text-scale-ratio: 1.25;
+    // }
+
+    // @include mq($from: desktop-small) {
+    //     --text-base-size: 0.9rem;
+    //     --text-scale-ratio: 1.25;
+    // }
+
+    // @include mq($from: desktop-medium) {
+    //     --text-base-size: 1rem;
+    //     --text-scale-ratio: 1.2;
+    // }
+
+    /* set color values */
+    --color-text-heading: var(--color-secondary);
+    --color-text-body: var(--color-secondary);
+
+    /* line-height */
+    // --heading-line-height: 1.2;
+    // --body-line-height: 1.4;
+
+    /* type scale */
+    // --text-xs: calc((var(--text-unit) / var(--text-scale-ratio)) / var(--text-scale-ratio));
+    // --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+    // --text-rg: calc(var(--text-sm) * var(--text-scale-ratio));
+    // --text-md: calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    // --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+    // --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+    // --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+    // --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+    // --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
+}
+
+//   // use base size to create new value - off scale
+//   font-size: calc(var(--text-base-size) * 3);
+
+//   // use original font-size to create new value - off scale
+//   font-size: calc(var(--text-xxl) - 0.8em);
+
+//   // update the value of the font-size using a different variable
+//   font-size: var(--text-xl);
+
+body {
+    // font-size: var(--text-base-size);
+    font-family: var(--font-secondary);
+    color: var(--color-text-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-primary);
+}
+
+.link-primary {
+    color: var(--color-primary);
+
+    &:hover,
+    &:active {
+        color: var(--color-primary-hover);
+        text-decoration: underline;
+    }
+}
+
+// Modular Scale Applied for better typograhpy visit http://www.modularscale.com/

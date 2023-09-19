@@ -1,0 +1,32 @@
+// main: ../style.scss
+
+:root {
+    // COLORS
+    --color-base-white:                         #fff;
+    --color-base-black:                         #000;
+
+    // Primary Colors
+    --color-primary:                            #009CDE;
+    --color-primary-hover:                      #008fcc;
+    --color-secondary:                          #203772;
+    --color-secondary-hover:                    #1c3063;
+    --color-tertiary:                           #99B2D9;
+
+    // Branding
+    --color-dark-blue:                          #29348F;
+
+    // Neutral Shades
+    --color-neutral-01:                         #F6F9FF;
+    --color-neutral-02:                         #8899aa;   
+
+    --color-success:                            #0FCF45;
+    --color-success-hover:                      #0ebe40;
+    --color-success-active:                     #0ca638;
+    --color-danger:                             #EE1C1C;
+    --color-danger-hover:                       #ed1212;
+    --color-danger-active:                      #d51010;
+    // --color-warning:                            #FFC75A;
+    // --color-warning-hover:                      #ffc34d;
+    // --color-warning-active:                     #ffbb33;
+
+}

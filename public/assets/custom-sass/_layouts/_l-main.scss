@@ -1,0 +1,27 @@
+/* Global / Main */
+body {
+    background-color: var(--color-neutral-01);
+}
+
+.right-panel {
+    background-color: transparent;
+
+    .page-header {
+        background: transparent;
+        padding: 1.5rem 2rem 0 2rem;
+
+        .page-title h1 {
+            font-size: 2.375rem;
+            padding-bottom: 0;
+        }
+    }
+
+ 
+
+}
+
+// when sidebar nav is open
+// .open .right-panel {
+//     margin-left: 93px;
+// }
+

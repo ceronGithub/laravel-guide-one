@@ -1,0 +1,16 @@
+input[type=file]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#image_src {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+body {
+    overflow: auto;
+}
+
+.filepond--item {
+    width: 160px;
+}

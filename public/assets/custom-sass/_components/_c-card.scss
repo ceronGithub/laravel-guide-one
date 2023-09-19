@@ -1,0 +1,17 @@
+/* Cards */
+
+.card.table-wrapper {
+    .card-header {
+        font-size: 22px;
+        font-family: var(--font-primary);
+        background: transparent;
+        padding: 1rem 2rem;
+    }
+    
+    .card-body {
+        padding: 1.25rem 2rem;
+    }
+}
+.card-header {
+    border-bottom: 2px solid #F4F4F4;
+}

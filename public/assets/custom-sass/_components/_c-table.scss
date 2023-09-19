@@ -1,0 +1,44 @@
+/* Table */
+.table-wrapper {
+    box-shadow: 0px 17px 40px -1px rgba(0, 37, 167, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+
+    .order-table {
+        border-radius: inherit;
+    }
+
+    // table thead
+    .order-table tr th,
+    .order-table::before,
+    .order-table::after {
+        background: var(--color-base-white);
+    }
+
+    // th
+    thead th {
+        padding: 1.2rem 2rem;
+        text-transform: unset;
+        font-family: var(--font-secondary);
+        font-size: 1rem;
+        color: var(--color-tertiary);
+        white-space: nowrap;
+        border-bottom-color: #F4F4F4;
+    }
+
+    // td 
+    tbody td {
+        padding: 0.75rem 2rem;
+        font-family: var(--font-secondary);
+        font-size: 1rem;
+        color: var(--color-secondary);
+        border-bottom-color: #F4F4F4;
+    }
+
+    tbody td .name,
+    tbody th .name {
+        font-family: var(--font-secondary);
+        font-size: 1rem;
+        color: var(--color-secondary);
+    }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Powerbank",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Speaker",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Charger",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Earphone",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Headphone",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Microphone",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Sim Card",
+    "desc": "Lorem Ipsum Dolor"
+  },
+  {
+    "name": "Cable",
+    "desc": "Lorem Ipsum Dolor"
+  }
+]
